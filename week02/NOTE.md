@@ -32,51 +32,34 @@
 		- Null
 		- Boolean
 		- Number
-		```
-		NumericLiteral :: DecimalLiteral
-BinaryIntegerLiteral OctalIntegerLiteral HexIntegerLiteral
-DecimalLiteral ::
-DecimalIntegerLiteral . DecimalDigitsopt ExponentPartopt . DecimalDigits ExponentPartopt
-DecimalIntegerLiteral ExponentPartopt
-DecimalIntegerLiteral :: 0
-166
-© Ecma International 2019
-NonZeroDigit DecimalDigitsopt
-DecimalDigits :: DecimalDigit
-DecimalDigits DecimalDigit DecimalDigit :: one of
-0123456789
-NonZeroDigit :: one of 123456789
-ExponentPart ::
-ExponentIndicator SignedInteger
-ExponentIndicator :: one of eE
-SignedInteger :: DecimalDigits
-+ DecimalDigits - DecimalDigits
-BinaryIntegerLiteral :: 0b BinaryDigits 0B BinaryDigits
-BinaryDigits :: BinaryDigit
-BinaryDigits BinaryDigit BinaryDigit :: one of
-01
-OctalIntegerLiteral :: 0o OctalDigits 0O OctalDigits
-OctalDigits :: OctalDigit
-OctalDigits OctalDigit OctalDigit :: one of
-01234567
-HexIntegerLiteral :: 0x HexDigits 0X HexDigits
-HexDigits :: HexDigit
-HexDigits HexDigit HexDigit :: one of
-© Ecma International 2019 167
-
-The MV of The MV of The MV of The MV of The MV of The MV of
-(the MV of The MV of
-NumericLiteral :: DecimalLiteral is the MV of DecimalLiteral.
-NumericLiteral :: BinaryIntegerLiteral is the MV of BinaryIntegerLiteral.
-NumericLiteral :: OctalIntegerLiteral is the MV of OctalIntegerLiteral.
-NumericLiteral :: HexIntegerLiteral is the MV of HexIntegerLiteral.
-DecimalLiteral :: DecimalIntegerLiteral . is the MV of DecimalIntegerLiteral.
-DecimalLiteral :: DecimalIntegerLiteral . DecimalDigits is the MV of DecimalIntegerLiteral plus
-DecimalDigits × 10-n), where n is the number of code points in DecimalDigits.
-DecimalLiteral :: DecimalIntegerLiteral . ExponentPart is the MV of DecimalIntegerLiteral × 10 ,
-The MV of
-The MV of
-0123456789abcdefABCDEF
-The SourceCharacter immediately following a NumericLiteral must not be an IdentifierStart or DecimalDigit.
-		```
+			- NumericLiteral :: 
+				- DecimalLiteral
+				- BinaryIntegerLiteral 
+				- OctalIntegerLiteral 
+				- HexIntegerLiteral
+			- DecimalDigits :: 
+				- DecimalDigit
+				- DecimalDigits 
+				- DecimalDigit
+			- DecimalDigit :: one of 0123456789
+			- NonZeroDigit :: one of 123456789
+			- ExponentPart :: 
+				- ExponentIndicator 
+				- SignedInteger
+			- ExponentIndicator :: one of eE
+			- SignedInteger :: DecimalDigits
+				- + DecimalDigits - DecimalDigits
+			- BinaryIntegerLiteral :: 0b BinaryDigits 0B BinaryDigits
+			- BinaryDigits :: BinaryDigit
+				- BinaryDigits BinaryDigit
+			- BinaryDigit :: one of 01
+			- OctalIntegerLiteral :: 0o OctalDigits 0O OctalDigits
+			- OctalDigits :: OctalDigit
+				- OctalDigits OctalDigit
+			- OctalDigit :: one of 01234567
+			- HexIntegerLiteral :: 0x HexDigits 0X HexDigits
+			- HexDigits :: HexDigit 
+				- HexDigits HexDigit
+			- HexDigit :: one of 0123456789abcdefABCDEF
+			
 		- String

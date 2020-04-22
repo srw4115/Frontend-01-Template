@@ -25,3 +25,11 @@
 	- [unicode表](https://www.fileformat.info/info/unicode/category/Zs/list.htm)
 - LineTerminator 
   	- 比如LR：'\n' CR：'\r' 
+- Token
+	- Punctuator：符号 ><=
+	- Keywords：if switch async await等
+	- Literal：直接量（其实就是变量或者属性这些的值）
+		- Null
+		- Boolean
+		- Number
+		- String

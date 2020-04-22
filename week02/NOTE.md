@@ -22,4 +22,6 @@
 
 - Atom 
 - whiteSpace
-   [unicode表](https://www.fileformat.info/info/unicode/category/Zs/list.htm)
+	[unicode表](https://www.fileformat.info/info/unicode/category/Zs/list.htm)
+- LineTerminator 
+  	比如LR：'\n' CR：'\r' 

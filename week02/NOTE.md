@@ -16,3 +16,10 @@
 - if和while
 - 声明式——lambda
 - 递归
+
+
+## 词法和类型
+
+- Atom 
+- whiteSpace
+   [unicode表](https://www.fileformat.info/info/unicode/category/Zs/list.htm)

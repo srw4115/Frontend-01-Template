@@ -107,7 +107,7 @@ function numberToString(num, radix = 10) {
 
 
     while (integer > 0) {
-        const value = radix > 10 && hexStrTable[integer % radix] ? hexStrTable[integer % radix] : integer % radix
+        const value = 10< radix < 35 && hexStrTable[integer % radix] ? hexStrTable[integer % radix] : integer % radix
         string = String(value) + string;
         integer = Math.floor(integer / radix);
     }

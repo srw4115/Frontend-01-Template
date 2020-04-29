@@ -1,3 +1,15 @@
+### ordinary object
+  - 具备了对象的所有基本内置方法和默认行为
+  
+### exotic object
+  - 外来对象, 该对象不具有一个或多个基本内部方法的默认行为
+
+### standard object
+  - 标准对象，语义由本规范定义的对象
+
+### built-in object
+  - 由ECMAScript实现指定和提供的对象
+
 ### Bound Function Exotic Objects
   - properties
     - \[[BoundTargetFunction]]: The wrapped function object.

@@ -16,7 +16,7 @@
 
 ### css
 
-当父级和自身属性分析完成后，调用CSS parser分析规则
+当startTag的时候，调用CSS parser计算css规则
 创建元素后，立即计算CSS
 分析元素时，所有规则已经收集完毕
 遇到写在body里面的style标签需要重新计算CSS

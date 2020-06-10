@@ -1,7 +1,4 @@
-
-# 1、选择器语法
-
-## 简单选择器
+# 简单选择器
   * *
   * div svg | a (namespace?)
   * .class

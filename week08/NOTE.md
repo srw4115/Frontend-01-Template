@@ -1,5 +1,4 @@
 # 简单选择器
-  * *
   * div svg | a (namespace?)
   * .class
   * #id

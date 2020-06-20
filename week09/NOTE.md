@@ -72,8 +72,6 @@ HTML语义
     * \&lt;
     * \&quot;
 
-##### 重学DOM ｜ DOM
-
 * Browser API
     * DOM
         * DOM Tree

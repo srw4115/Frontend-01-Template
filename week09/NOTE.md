@@ -1,7 +1,7 @@
 ##### CSS动画与绘制
 
 
-1. Animation
+* Animation
     * @keyframes：
         ```css
             @keyframes mykf
@@ -34,7 +34,7 @@
             }
         ```
         
-2. Transition
+* Transition
     * transition animation：
         * transition-property
         * transition-duration

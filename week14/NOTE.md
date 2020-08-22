@@ -1,1 +1,2 @@
-# 每周总结可以写在这里
+webpack 和babel 解析 ES6语法和jsx语法
+Carousel轮播组件的实现

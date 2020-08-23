@@ -1,5 +1,17 @@
-###工具链设计
+## 脚手架命令
 
-yeoman
-命令行交互
-文件模版
+- init
+- add
+- dev
+- server
+- build
+- publish
+
+### Dev 工具
+
+#### Server
+
+- build: webpack
+- watch: fsevent
+- mock: mockjs
+- http: ws
